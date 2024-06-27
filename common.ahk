@@ -6,6 +6,7 @@
 #z::Send "^z"
 #f::Send "^f"
 #w::Send "^w"
+#a::Send "^a"
 
 !h::Send "{Left}"
 !j::Send "{Down}"
