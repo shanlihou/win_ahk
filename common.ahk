@@ -2,13 +2,21 @@
 
 #c::Send "^{Ins}"
 #s::Send "^s"
+#x::Send "^x"
 #v::Send "+{Ins}"
 #z::Send "^z"
 #f::Send "^f"
 #w::Send "^w"
 #a::Send "^a"
++#f::Send "+^f"
 
 !h::Send "{Left}"
 !j::Send "{Down}"
 !k::Send "{Up}"
 !l::Send "{Right}"
+
+
++!h::Send "+{Left}"
++!j::Send "+{Down}"
++!k::Send "+{Up}"
++!l::Send "+{Right}"
