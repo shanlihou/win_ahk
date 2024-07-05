@@ -20,3 +20,9 @@
 +!j::Send "+{Down}"
 +!k::Send "+{Up}"
 +!l::Send "+{Right}"
+
+
+
+!y::Send "^{Ins}"
+!p::Send "+{Ins}"
+!i::Send "^x"
