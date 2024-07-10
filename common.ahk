@@ -26,3 +26,6 @@
 !y::Send "^{Ins}"
 !p::Send "+{Ins}"
 !i::Send "^x"
+
+
+#LButton::Send "^{LButton}"
