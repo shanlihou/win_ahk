@@ -10,6 +10,9 @@
 #a::Send "^a"
 +#f::Send "+^f"
 
++#SC01A::Send "+^{Tab}"
++#SC01B::Send "^{Tab}"
+
 !h::Send "{Left}"
 !j::Send "{Down}"
 !k::Send "{Up}"
@@ -23,9 +26,9 @@
 
 
 
-!y::Send "^{Ins}"
-!p::Send "+{Ins}"
-!i::Send "^x"
+!y::Send "^{Ins}" ; alt + y === copy
+!p::Send "+{Ins}" ; alt + p === paste
+!i::Send "^x"     ;
 
 
-#LButton::Send "^{LButton}"
+#LButton::Send "^{LButton}" ; win + left mouse click == ctrl + click
